@@ -1,453 +1,733 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-  <!-- Metadatos -->
-  <meta charset="utf-8">
-  <meta name="author" content="Brenda Esthefania Romero Díaz">
-  <meta name="description" content="Portafolio de desarrollo web de Brenda Esthefania Romero Díaz">
-  <meta name="keywords" content="HTML, CSS, JavaScript, React">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Titulo -->
-  <title>Brenda Esthefania Romero Díaz | Frontend Developer Junior</title>
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="imagenes/codificacion.png">
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <!-- Iconos de Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <!-- CSS -->
-  <link href="style.css" rel="stylesheet">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
-    rel="stylesheet">
+
+     <meta charset="UTF-8">
+
+     <title>EBACH1</title>
+
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- Main css -->
+     <link rel="stylesheet" href="css/tooplate-style.css">
+
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-  <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#">
-          <img src="imagenes/codificacion.png" width="50" alt="Logo de la página web">
-        </a>
-        <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <!-- <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
-            </li> -->
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#proyectos">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonios">Testimonios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Seccion Hero -->
-  <section class="hero align-items-stretch">
-    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-      <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/me.jpg" alt="Foto de Brenda Romero">
-      <h1 class="h1-hero-name">Brenda Esthefania Romero Díaz</h1>
-      <h1 class="h1-hero-name">Frontend Developer Junior</h1>
-      <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
-
-      <!--Animación con JavaScript-->
-      <h2 class="text-info mb-4" id="typewriter"></h2>
-    </div>
-    <div class="hero-inferior">
-      <!-- <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Herramientas web">
-      </div> -->
-  </section>
-
-  <!-- Sobre mi -->
-  <section id="sobre-mi" class="sobre-mi seccion-oscura">
-    <div class="contenedor">
-      <h2 class="seccion-titulo">Conoce a BERD</h2>
-      <p class="seccion-texto">Hola Mundo, soy BERD, una apasionada por la tecnología y el aprendizaje continuo, me encanta desafiarme día a día en el desarrollo web y en la automatización de procesos. Siempre estoy en búsqueda de nuevas experiencias y conocimientos, encontrar soluciones a través de la tecnología es mi mayor motivación.</p>
-    </div>
-  </section>
-
-  <!-- Experiencia -->
-  <section class="experiencia seccion-clara">
-    <div class="container text-center">
-      <div class="row">
-        <!-- Desarrollo Web -->
-        <div class="columna col-12 col-md-4">
-          <i class="bi bi-robot"></i>
-          <p class="experiencia-titulo">Habilidades</p>
-
-          <p>
-
-            <!-- Lenguajes -->
-            <img
-              src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-
-            <img src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-
-            <!-- DESARROLLO WEB -->
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-
-            <img
-              src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
-
-            <img
-              src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-
-            <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-
-            <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
-
-
-            <img
-              src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-
-            <img
-              src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
-
-            <!-- Framework -->
-            <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" />
-
-            <!-- AI -->
-            <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" />
-
-            <!-- TOOLS -->
-
-            <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-
-            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-            <img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" />
-            <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
-
-            <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
-
-            <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-
-            <!-- OS -->
-            <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-
-            <img
-              src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-
-            <img
-              src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white" />
-
-            <img src="https://img.shields.io/badge/Kubuntu-0079C1?style=for-the-badge&logo=kubuntu&logoColor=white" />
-
-            <!-- PAQUETERIA OFFICE -->
-            <img
-              src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" />
-
-          </p>
-          <!--      <div class="badges-contenedor">
-              <span class="badge text-bg-primary">HTML</span>
-              <span class="badge text-bg-primary">CSS</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-              <span class="badge text-bg-primary">React</span>
-            </div> -->
-        </div>
-        <!-- Articulos -->
-        <div class="columna col-12 col-md-4">
-          <i class="bi bi-journal-bookmark"></i>
-          <p class="experiencia-titulo">Educación y cursos</p>
-          <p>
-            <a class="link-uni" href="https://utn.edomex.gob.mx/" target="blank">UNIVERSIDAD TECNOLÓGICA DE
-              NEZAHUALCÓYOTL</a>
-            Técnico Superior Universitario en Tecnologías de la Información y Comunicación Área Sistemas
-            Informáticos
-          </p>
-          <p></p>
-          <div class="badges-contenedor">
-
-            <a href="https://www.linkedin.com/in/brenda-esthefania-romero-d%C3%ADaz-0b6177213/details/honors/"
-              target="blank"><span class="badge text-bg-primary">Reconocimientos</span></a>
-
-            <a href="https://www.linkedin.com/in/brenda-esthefania-romero-d%C3%ADaz-0b6177213/details/certifications/"
-              target="blank"><span class="badge text-bg-primary">Certificaciones</span></a>
-
-            <a href="https://platzi.com/p/_BEsthefaniaRD_/" target="blank"><span class="badge text-bg-primary">Cursos
-                Platzi</span></a>
-
-            <!-- <span class="badge text-bg-primary">Editar</span>
-            <span class="badge text-bg-primary">Blogs</span> -->
+     <!-- PRE LOADER -->
+     <div class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
           </div>
-        </div>
-        <!-- Estudiante -->
-        <div class="columna col-12 col-md-4">
-          <i class="bi bi-laptop"></i>
-          <p class="experiencia-titulo">Pasiones</p>
-          <p class="text-experiencia">Actualmente soy Directora del área de QA, me dedico a automatizar procesos,
-            realizar pruebas a sitios web y a asistentes virtuales, además de realizar actividades relacionadas con el
-            liderazgo del área.
-            <br>
-            Me apasiona la tecnología por lo que a menudo me gusta desarrollar sitios web, automatizar, tomar cursos, certificarme, ir a conferencias de
-            tecnología y de vez en cuando dar charlas sobre QA.
-          </p>
-          <div class="badges-contenedor">
-
-            <a href="https://github.com/BEsthefaniaRD?tab=repositories" target="blank"><span
-                class="badge text-bg-primary">Desarrollar sitios web</span></a>
-            <a href="https://www.linkedin.com/in/brenda-esthefania-romero-d%C3%ADaz-0b6177213/" target="blank"><span
-                class="badge text-bg-primary">Ser QA</span></a>
-            <a href="https://sessionize.com/brenda-esthefania-romero-diaz/" target="blank"><span
-                class="badge text-bg-primary">Dar conferencias</span></a>
-            <a href="https://www.linkedin.com/in/brenda-esthefania-romero-d%C3%ADaz-0b6177213/details/honors/"
-              target="blank"><span class="badge text-bg-primary">Ser mentora</span></a>
+     </div>
 
 
-            <!-- <span class="badge text-bg-primary">Tecnolochicas PRO</span>
-            <span class="badge text-bg-primary">Desarrollo Web</span>
-            <span class="badge text-bg-primary">Python</span> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+     <!-- HOME SECTION -->
+     <div class="container">
+          <div class="row">
+               <section id="home" class="parallax-section">
 
-  <!-- Proyectos -->
-  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
-    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
-    <!-- Galeria de Proyectos -->
-    <div class="container text-center proyectos-contenedor">
-      <div class="row">
-        <!-- Proyecto 1 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto1.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>EBACH1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/BEsthefaniaRD/EBACH" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://ramptors.net/ebach1/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 2 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto2.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>CV</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/BEsthefaniaRD/Curriculum-Vitae" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://cvberd.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 3 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto3.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Google clon</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/BEsthefaniaRD/GoogleClone" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://ggclon.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 4 -->
-        <!-- <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto4.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Test</p>
-              <div class="iconos-contenedor">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- Proyecto 5 -->
-        <!-- <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto5.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Ecommerce</p>
-              <div class="iconos-contenedor">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- Proyecto 6 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto6.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Portafolio</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a href="https://github.com/BEsthefaniaRD?tab=repositories" target="_blank" rel="noopener noreferrer">
-      <button type="button" class="btn btn-info">
-        Ver más proyectos
-        <i class="bi bi-arrow-right-circle-fill"></i>
-      </button>
-    </a>
-  </section>
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                         <div class="home-wrapper">
+                              <h3 class="wow fadeInUp" data-wow-delay="0.4s">Bellas Artes</h3>
+                              <h1 class="wow fadeInUp" data-wow-delay="0.6s">Escuela de Bellas Artes de Chimalhuacán 1
+                              </h1>
+                              <a href="#about" class="wow fadeInUp smoothScroll arrow-btn" data-wow-delay="1s"><i
+                                        class="fa fa-angle-double-down"></i></a>
+                         </div>
+                    </div>
 
-  <!-- Testimonios -->
-  <section id="testimonios" class="testimonios seccion-clara">
-    <h2 class="seccion-titulo">Testimonios</h2>
-    <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes:</h3>
+               </section>
+          </div>
+     </div>
 
-    <!-- Carrusel -->
-    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+
+     <!-- ABOUT SECTION -->
+     <section id="about" class="parallax-section">
           <div class="container">
-            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.jpg" alt="Foto de cliente">
-            <p class="testimonio-texto">El trabajo de Brenda es impresionante, me encanto como quedo la página web de mi proyecto de tesis</p>
-            <div class="testimonio-info">
-              <p class="cliente">Arcelia Díaz</p>
-              <p class="cargo">Doctora en Educación</p>
-            </div>
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-8">
+                         <img src="images/about-image.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.2s"
+                              alt="about image">
+                         <div class="wow fadeInUp" data-wow-delay="0.4s">
+                              <h4>Dra. Arcelia Magali Díaz Hernández</h4>
+                              <p>Repositorio de Danza</p>
+                              <!-- <a href="#">hello@company.com</a> -->
+                         </div>
+                    </div>
+
+                    <div class="col-md-8 col-sm-12">
+                         <div class="about-thumb">
+                              <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                                   <!-- <h3>we make things better</h3> -->
+                                   <h2>Hola, soy Magali, una apasionada de la danza</h2>
+                              </div>
+                              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                                   <p>
+                                        Desde mi licenciatura en Danza hasta mi reciente doctorado en Pedagogía, mi viaje académico ha sido guiado por el deseo de comprender cómo la danza puede moldear y enriquecer nuestras vidas. Mi proyecto de tesis es el punto culminante de esta búsqueda, donde reúno todos mis proyectos y vídeos para mostrar cómo la danza impacta en el desarrollo personal. A través de este trabajo, aspiro a destacar la importancia de la danza como una herramienta poderosa para el crecimiento humano. Es un honor para mí compartir mi pasión y conocimientos en este campo, esperando inspirar a otros a través del arte del movimiento.
+                                   </p>
+
+                                   <!-- <p>Credit goes to <a href="#"><b>Unsplash</b></a> for images used in this artist web
+                                        page. Please tell your friends about <a rel="nofollow"
+                                             href="http://tooplate.com" target="_parent">Tooplate</a> website. You can
+                                        feel free to use this template as you wish. Fusce quis fermentum enim, at rutrum
+                                        enim. Sed tellus metus, laoreet eu turpis vel, sollicitudin feugiat libero. Ut
+                                        ligula augue, condimentum a purus hendrerit, suscipit vehicula dui. Sed non
+                                        purus purus. Mauris nunc lectus, porta pellentesque nisl nec, porttitor
+                                        ultricies purus.</p> -->
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
           </div>
-        </div>
-        <div class="carousel-item">
+     </section>
+
+
+
+
+
+
+
+
+     <!-- MATERIAL DIDACTICO -->
+     <section id="material" class="parallax-section">
           <div class="container">
-            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.jpg" alt="Foto de Nora">
-            <p class="testimonio-texto">{{waitingForInfo}}}}</p>
-            <div class="testimonio-info">
-              <p class="cliente">Tecnolochicas Pro</p>
-              <p class="cargo">BOOTCAMP</p>
-            </div>
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <h2>Catálogo de Recursos Didácticos</h2>
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Estado de Guerrero. "El palomo".</h4>
+                              <p>Asignatura: Interpretación Dancística</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=5rlu3LRIJrs" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=5rlu3LRIJrs" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.4s">
+                         <div class="material-thumb">
+                              <h4>Huapango de Puebla "Las poblanitas".</h4>
+                              <p>Asignatura: Interpretación Dancística</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=4cSfWCH9zKk&t=4s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=4cSfWCH9zKk&t=4s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>1 Teatro a escala - Tutorial.</h4>
+                              <p>Asignatura: Escenografía II</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=_DJigwfyNSI" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=_DJigwfyNSI" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>2 Teatro a escala.</h4>
+                              <p>Asignatura: Escenografía II</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=sVXNDDQojeM" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=sVXNDDQojeM" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>3 Teatro a escala.</h4>
+                              <p>Asignatura: Escenografía II</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=KyGPGrHJhyk&t=18s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=KyGPGrHJhyk&t=18s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>4 Teatro a escala - Tutorial.</h4>
+                              <p>Asignatura: Escenografía II</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=BCZ1a7lSW7U" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=BCZ1a7lSW7U" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Investigación - Colima Tecomán.</h4>
+                              <p>Asignatura: Actualización de Repertorio 1</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=DdHXpb0Mb28" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=DdHXpb0Mb28" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Investigación - Xantolo.</h4>
+                              <p>Asignatura: Actualización de Repertorio 1</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=mtERXmp3NpU&t=19s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=mtERXmp3NpU&t=19s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Informativo - Ensayo expositivo.</h4>
+                              <p>Asignatura: Etnografía</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=ITlflz67BX0&t=35s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=ITlflz67BX0&t=35s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Estado Colima "Danza de Apaches".</h4>
+                              <p>Asignatura: Interpretación Dancística IV</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=WF6MF82vmeE&t=27s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=WF6MF82vmeE&t=27s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Versión Corta - Estado Colima "Danza de Apaches".</h4>
+                              <p>Asignatura: Interpretación Dancística IV</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=YAIsLLSNzes&t=9s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=YAIsLLSNzes&t=9s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Estado de Aguascalientes "Pelea de Gallos".</h4>
+                              <p>Asignatura: Interpretación Dancística</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=5H0a9KTOXcQ" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=5H0a9KTOXcQ" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Huapango de Puebla "El Huauchinanguense".</h4>
+                              <p>Asignatura: Interpretación Dancística</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=kiMq56ow-LA&t=120s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=kiMq56ow-LA&t=120s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.4s">
+                         <div class="material-thumb">
+                              <h4>Sones de Tierra Caliente, Estado de México "La Paloma".</h4>
+                              <p>Asignatura: Interpretación Dancística</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=K7DtiyDoeL8" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=K7DtiyDoeL8" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+
+
+                   
+                    
+                   
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Sones de Tierra Caliente, Estado de México "Canto de Colorines".</h4>
+                              <p>Asignatura: Interpretación Dancística</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=-EtOHcKUf4A&t=6s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=-EtOHcKUf4A&t=6s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen>
+                              </iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1">
+                         <div class="material-thumb">
+                              <h4>Investigación - Danza de Moros y Cristianos. Estado de México, Municipio de Mexicaltzingo.</h4>
+                              <p>Asignatura: Actualización de Repertorio 1</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=d8mVrdQ6s80" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=d8mVrdQ6s80" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>Investigación - Danza de Inditas. San Pedro Tlaltizapan, Municipio de Tianguistenco, Estado de México.</h4>
+                              <p>Asignatura: Actualización de Repertorio 1</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=B9wIICozs-o&t=9s" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                              <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=B9wIICozs-o&t=9s" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+                    
+
+
+
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.1s">
+                         <div class="material-thumb">
+                              <h4>"Me pretendo hallar" Escrito y Narrado por: Luis Enrique Ortega Padrón.</h4>
+                              <p>Asignatura: Actualización de Repertorio</p>
+                              <p>Material:   <a href="https://www.youtube.com/watch?v=XZpeH6apR24" target="_blank"
+                                   class="fa fa-youtube-play"> Vídeo</a>
+                              </p>
+                              <!-- <p>Material: Vídeo</p>
+                               <iframe id="video" width="560" height="315"
+                                   src="https://www.youtube.com/watch?v=XZpeH6apR24" title="YouTube video player"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                   allowfullscreen></iframe> -->
+                         </div>
+                    </div>
+
+
+
+
+
+               </div>
           </div>
-        </div>
-        <!-- <div class="carousel-item">
+     </section>
+
+
+
+
+
+
+
+     <!-- WORK SECTION -->
+     <section id="work" class="parallax-section">
           <div class="container">
-            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
-            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna.
-              Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-            <div class="testimonio-info">
-              <p class="cliente">Leonardo</p>
-              <p class="cargo">Director de AprendeAProgramar</p>
-            </div>
-          </div>
-        </div> -->
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div>
-  </section>
+               <div class="row">
 
-  <!-- Contacto -->
-  <section id="contacto" class="contacto seccion-oscura">
-    <div class="container">
-      <div class="container text-center rectangulo d-flex justify-content-evenly">
-        <div class="row">
-          <div class="col-12 col-md-4 seccion-titulo">
-            ¡Hablemos!
-          </div>
-          <div class="col-12 col-md-4 descripcion">
-            Contáctame para iniciar con tu proyecto web.
-          </div>
-          <div class="col-12 col-md-4">
-            <a href="mailto:fani.berd@gmail.com">
-              <button type="button">
-                Contacto
-                <i class="bi bi-envelope-check-fill"></i>
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                    <div class="col-md-12 col-sm-12">
+                         <!-- SECTION TITLE -->
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <h2>Galeria de Fotos</h2>
+                              <p>Vestuarios típicos</p>
+                         </div>
+                    </div>
 
-  <!-- Pie de pagina (footer) -->
-  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
-    <p class="footer-texto text-center">Me encanta desafiarme continuamente.<br>Creemos un proyecto juntos.</p>
-    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-      <!-- <a href="#" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-twitter"></i>
-        </a> -->
-      <a href="https://www.linkedin.com/in/brenda-esthefania-romero-d%C3%ADaz-0b6177213/" target="_blank"
-        rel="noopener noreferrer">
-        <i class="bi bi-linkedin"></i>
-      </a>
-      <a href="https://github.com/BEsthefaniaRD" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github"></i>
-      </a>
-      <!-- <a href="" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-instagram"></i>
-        </a> -->
-      <a href="mailto:fani.berd@gmail.com" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-envelope"></i>
-      </a>
-    </div>
-    <div class="derechos-de-autor">Creado por BERD (2024) &#169;</div>
-  </footer>
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-1.jpg" class="image-popup">
+                                   <img src="images/work-1.jpg" class="img-responsive" alt="Fine Arts">
+                              </a>
+                         </div>
+                         <!-- <h4>Charro</h4> -->
+                    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-2.jpg" class="image-popup">
+                                   <img src="images/work-2.jpg" class="img-responsive" alt="Logo Design">
+                              </a>
+                         </div>
+                         <!-- <h4>Azteca</h4> -->
+                    </div>
 
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <script src="main.js"></script>
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-3.jpg" class="image-popup">
+                                   <img src="images/work-3.jpg" class="img-responsive" alt="Photography">
+                              </a>
+                         </div>
+                         <!-- <h4>Charro</h4> -->
+                    </div>
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-4.jpg" class="image-popup">
+                                   <img src="images/work-4.jpg" class="img-responsive" alt="Cinematography">
+                              </a>
+                         </div>
+                         <!-- <h4>Cinematography</h4> -->
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <!-- SECTION TITLE -->
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <!-- <h2>Galeria de Fotos</h2>
+                              <p>Vestuarios típicos</p> -->
+                         </div>
+                    </div>
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-5.jpg" class="image-popup">
+                                   <img src="images/work-5.jpg" class="img-responsive" alt="Fine Arts">
+                              </a>
+                         </div>
+                         <!-- <h4>Charro</h4> -->
+                    </div>
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-6.jpg" class="image-popup">
+                                   <img src="images/work-6.jpg" class="img-responsive" alt="Logo Design">
+                              </a>
+                         </div>
+                         <!-- <h4>Azteca</h4> -->
+                    </div>
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-7.jpg" class="image-popup">
+                                   <img src="images/work-7.jpg" class="img-responsive" alt="Photography">
+                              </a>
+                         </div>
+                         <!-- <h4>Charro</h4> -->
+                    </div>
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-8.jpg" class="image-popup">
+                                   <img src="images/work-8.jpg" class="img-responsive" alt="Cinematography">
+                              </a>
+                         </div>
+                         <!-- <h4>Cinematography</h4> -->
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- CONTACT SECTION -->
+     <!-- <section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12"> -->
+     <!-- SECTION TITLE -->
+     <!-- <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>Get in touch</h2>
+                         <p>Quisque lobortis nibh eu nisi sodales gravida. Sed vehicula mauris in orci vehicula, at luctus mauris hendrerit. Fusce aliquet quis ante ac pretium. Donec quis nibh sed elit rhoncus condimentum.</p>
+                    </div>
+               </div>
+
+               <div class="col-md-12 col-sm-12"> -->
+     <!-- CONTACT FORM HERE -->
+     <!-- <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <form action="#" method="post" id="contact-form">
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" name="name" placeholder="Name">
+                              </div>
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" name="email" placeholder="Email">
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+                              </div>
+                              <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                                   <button id="submit" type="submit" class="form-control" value="send-mail" name="submit">Send Message</button>
+                              </div>
+                        </form>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section> -->
+
+
+
+     <!-- FOOTER SECTION -->
+     <footer id="footer" class="parallax-section">
+          <div class="container">
+               <div class="row">
+
+                    <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.2s">
+                         <h4>Escuela de Bellas Artes</h4>
+                         <p>Licenciatura en Interpretación Dancística del Folclor Mexicano</p>
+
+                         <div class="support-cus">
+                              <h4>Autora intelectual</h4>
+                              <p> Dra. Arcelia Magali Díaz Hernández</p>
+                         </div>
+
+                    </div>
+
+                    <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
+                         <div class="support-cus">
+                              <h4>Dirección</h4>
+                              <p>Prol. Tierra y Libertad s/n, Fundidores, 56334 Chimalhuacán, Edo. Méx.</p>
+                         </div>
+                         <div class="support-cus">
+                              <h4>Contacto</h4>
+                              <p><a href="#">ebach1difusion@outlook.com</a></p>
+                         </div>
+
+                    </div>
+
+
+                    <!-- <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
+                    <h4>Newsletter</h4>
+                    <form class="newsletter" action="#" method="get">
+                         <input name="email" type="email" class="form-control" id="email" placeholder="Your Email Address">
+                         <button name="submit" value="sign-up" class='form-control'>Sign Up</button>
+                    </form>
+               </div>
+
+
+               
+-->
+
+
+                    <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
+                         <div class="support-cus">
+                              <h4>Redes Sociales</h4>
+
+                              <p>
+                                   <a href="https://www.facebook.com/magali.diaz.31521" target="_blank"
+                                        class="fa fa-facebook-official"> Facebook</a>
+                              </p>
+
+                              <p>
+                                   <a href="https://www.youtube.com/@arceliadiaz5242/videos" target="_blank"
+                                        class="fa fa-youtube-play"> Youtube</a>
+                              </p>
+
+
+
+                         </div>
+                         <div class="support-cus">
+                         </div>
+                    </div>
+
+
+
+                    <div class="col-md-12 col-sm-12 clearfix">
+                         <div class="dash-line"></div>
+                    </div>
+
+                    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="1s">
+                         <p class="copyright-text">
+                              Copyright © 2024 EBACH1
+                              <br>
+                              Powered by BERD
+                         </p>
+                    </div>
+
+
+               </div>
+
+          </div>
+     </footer>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.parallax.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/magnific-popup-options.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/custom.js"></script>
 
 </body>
+
+
 
 </html>
